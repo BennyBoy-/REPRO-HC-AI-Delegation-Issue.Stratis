@@ -16,28 +16,43 @@ From the logs perspective:
 [HC AI Creation]
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 10:35:35 "REPRO(Headless Client:REPRO_HC_AI_DelegationDoCreate.sqf) HC [HC2_1] with id [4] is about to create units for group [R Delta 2-2]"
+
 10:35:35 "REPRO(Headless Client:REPRO_HC_AI_DelegationDoCreate.sqf) HC [HC2_1] with id [4] has created AI unit [R Delta 2-2:1] in group [R Delta 2-2]"
+
 10:35:35 "REPRO(Headless Client:REPRO_HC_AI_DelegationDoCreate.sqf) HC [HC2_1] with id [4] has created AI unit [R Delta 2-2:2] in group [R Delta 2-2]"
+
 10:35:35 "REPRO(Headless Client:REPRO_HC_AI_DelegationDoCreate.sqf) HC [HC2_1] with id [4] has created AI unit [R Delta 2-2:3] in group [R Delta 2-2]"
+
 10:35:35 soldier[I_Soldier_AR_F]:Some of magazines weren't stored in soldier Vest or Uniform?
 10:35:35 "REPRO(Headless Client:REPRO_HC_AI_DelegationDoCreate.sqf) HC [HC2_1] with id [4] has created AI unit [R Delta 2-2:4] in group [R Delta 2-2]"
+
 10:35:35 soldier[I_Soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
 10:35:35 soldier[I_Soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
 10:35:35 "REPRO(Headless Client:REPRO_HC_AI_DelegationDoCreate.sqf) HC [HC2_1] with id [4] has created AI unit [R Delta 2-2:5] in group [R Delta 2-2]"
+
 10:35:35 soldier[I_Soldier_GL_F]:Some of magazines weren't stored in soldier Vest or Uniform?
 10:35:35 "REPRO(Headless Client:REPRO_HC_AI_DelegationDoCreate.sqf) HC [HC2_1] with id [4] has created AI unit [R Delta 2-2:6] in group [R Delta 2-2]"
+
 10:35:35 "REPRO(Headless Client:REPRO_HC_AI_DelegationDoCreate.sqf) HC [HC2_1] with id [4] has created AI unit [R Delta 2-2:7] in group [R Delta 2-2]"
+
 10:35:35 "REPRO(Headless Client:REPRO_HC_AI_DelegationDoCreate.sqf) HC [HC2_1] with id [4] has created [7] units in group [R Delta 2-2]"
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 [SERVER AI DELETE]
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 10:35:40 "REPRO(Server:REPRO_SRV_AI_DelegationDelete): Removing units from [Server] with parameter [LastGroup]"
+
 10:35:40 "REPRO(Server:REPRO_SRV_AI_DelegationCreate.sqf) About to remove units from group [R Delta 2-2], group is local -> [false], units left -> [1]"
+
 10:35:40 "REPRO(Server:REPRO_SRV_AI_DelegationCreate.sqf) Removing unit [R Delta 2-2:1 REMOTE] from group [R Delta 2-2] via deleteVehicle, unit is local -> [false]"
+
 10:35:40 "REPRO(Server:REPRO_SRV_AI_DelegationCreate.sqf) Checking for unit removal in group [R Delta 2-2], result is [R Delta 2-2:1 REMOTE]"
+
 10:35:40 "REPRO(Server:REPRO_SRV_AI_DelegationCreate.sqf) About to remove group [R Delta 2-2] via deleteGroup, units left -> [1]"
+
 10:35:40 "REPRO(Server:REPRO_SRV_AI_DelegationCreate.sqf) Checking for group removal [R Delta 2-2]"
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
