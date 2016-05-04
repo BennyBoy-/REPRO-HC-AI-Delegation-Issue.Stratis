@@ -13,6 +13,7 @@ Since the problem is random, you may want to do it a few time
 You will see that some AI will stay on map and using ASM you will see that they are not on Server or HC. (They are ghosts)
 
 From the logs perspective:
+
 [HC AI Creation]
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 10:35:35 "REPRO(Headless Client:REPRO_HC_AI_DelegationDoCreate.sqf) HC [HC2_1] with id [4] is about to create units for group [R Delta 2-2]"
@@ -41,6 +42,7 @@ From the logs perspective:
 
 
 [SERVER AI DELETE]
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 10:35:40 "REPRO(Server:REPRO_SRV_AI_DelegationDelete): Removing units from [Server] with parameter [LastGroup]"
