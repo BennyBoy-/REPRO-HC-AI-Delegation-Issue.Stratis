@@ -14,7 +14,6 @@ _distance_player = 10;
 _origin_position = _origin modelToWorld [0, _distance_player, 0];
 
 {
-	sleep 5;
 	_unit = _group createUnit [_x, _origin_position, [], 0, "FORM"];
 	diag_log format["REPRO(Headless Client:REPRO_HC_AI_DelegationDoCreate.sqf) HC [%1] with id [%2] has created AI unit [%3] in group [%4] at time [%5]", _hc_object, _hc_id, _unit, _group, time];
 } forEach _units_array;
