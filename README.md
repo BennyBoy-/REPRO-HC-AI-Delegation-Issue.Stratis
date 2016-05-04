@@ -15,7 +15,9 @@ You will see that some AI will stay on map and using ASM you will see that they 
 From the logs perspective:
 
 [HC AI Creation]
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 10:35:35 "REPRO(Headless Client:REPRO_HC_AI_DelegationDoCreate.sqf) HC [HC2_1] with id [4] is about to create units for group [R Delta 2-2]"
 
 10:35:35 "REPRO(Headless Client:REPRO_HC_AI_DelegationDoCreate.sqf) HC [HC2_1] with id [4] has created AI unit [R Delta 2-2:1] in group [R Delta 2-2]"
