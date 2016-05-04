@@ -17,7 +17,6 @@ switch (_deleteFrom) do {
 							[[_x, REPRO_HC_GROUP_LAST, local _x], {player sideChat format["REPRO(Server:REPRO_SRV_AI_DelegationCreate.sqf) Removing unit [%1] from group [%2] via deleteVehicle, unit is local -> [%3]", _this select 0, _this select 1, _this select 2]}] remoteExec ["call", -2];
 							diag_log format ["REPRO(Server:REPRO_SRV_AI_DelegationCreate.sqf) Removing unit [%1] from group [%2] via deleteVehicle, unit is local -> [%3]", _x, REPRO_HC_GROUP_LAST, local _x];
 							deleteVehicle _x;
-							sleep 5;
 							[[REPRO_HC_GROUP_LAST, _x], {player sideChat format["REPRO(Server:REPRO_SRV_AI_DelegationCreate.sqf) Checking for unit removal in group [%1], result is [%2]", _this select 0, _this select 1]}] remoteExec ["call", -2];
 							diag_log format ["REPRO(Server:REPRO_SRV_AI_DelegationCreate.sqf) Checking for unit removal in group [%1], result is [%2]", REPRO_HC_GROUP_LAST, _x];
 						} forEach units REPRO_HC_GROUP_LAST;
@@ -56,7 +55,6 @@ switch (_deleteFrom) do {
 								[[_x, _group, local _x], {player sideChat format["REPRO(Server:REPRO_SRV_AI_DelegationCreate.sqf) Removing unit [%1] from group [%2] via deleteVehicle, unit is local -> [%3]", _this select 0, _this select 1, _this select 2]}] remoteExec ["call", -2];
 								diag_log format ["REPRO(Server:REPRO_SRV_AI_DelegationCreate.sqf) Removing unit [%1] from group [%2] via deleteVehicle, unit is local -> [%3]", _x, _group, local _x];
 								deleteVehicle _x;
-								sleep 5;
 								[[_group, _x], {player sideChat format["REPRO(Server:REPRO_SRV_AI_DelegationCreate.sqf) Checking for unit removal in group [%1], result is [%2]", _this select 0, _this select 1]}] remoteExec ["call", -2];
 								diag_log format ["REPRO(Server:REPRO_SRV_AI_DelegationCreate.sqf) Checking for unit removal in group [%1], result is [%2]", _group, _x];
 							} forEach units _group;
