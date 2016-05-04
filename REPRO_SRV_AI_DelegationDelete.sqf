@@ -91,7 +91,7 @@ switch (_deleteFrom) do {
 						[[REPRO_HC_GROUP_LAST, groupOwner REPRO_HC_GROUP_LAST], {player sideChat format["REPRO(Server:REPRO_SRV_AI_DelegationCreate.sqf) Delegating last group removal [%1] to HC ID [%2]", _this select 0, _this select 1]}] remoteExec ["call", -2];
 						diag_log format ["REPRO(Server:REPRO_SRV_AI_DelegationCreate.sqf) Delegating last group removal [%1] to HC ID [%2]", REPRO_HC_GROUP_LAST, groupOwner REPRO_HC_GROUP_LAST];
 						
-						(_x) remoteExec ["REPRO_HC_AI_DelegationDelete", groupOwner REPRO_HC_GROUP_LAST];
+						(REPRO_HC_GROUP_LAST) remoteExec ["REPRO_HC_AI_DelegationDelete", groupOwner REPRO_HC_GROUP_LAST];
 					} else {
 						[time, {player sideChat format["REPRO(Server:REPRO_SRV_AI_DelegationCreate.sqf) Unable to delegate the deletion of the last group to the HC, it is empty at time [%1]", _this]}] remoteExec ["call", -2];
 						diag_log format ["REPRO(Server:REPRO_SRV_AI_DelegationCreate.sqf) Unable to delegate the deletion of the last group to the HC, it is empty at time [%1]", time];
